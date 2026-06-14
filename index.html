@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamatta Devraj's Home Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="nav-menu">
+        <button id="theme-toggle">🌙 Dark Mode</button>
+        <a href="#" aria-current="page">Home</a>
+        <a href="#about-me">About Me</a>
+        <a href="#">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <h1 id="main-title">Welcome to Tamatta Devraj's Profile</h1>
+
+    <div class="content-wrapper">
+        <div class="card">
+            <h2>My Profile</h2>
+            <p>
+                Hi, I'm Tamatta Devraj, a rookie programmer trying to build something with the help of coding and web development.
+
+            </p>
+        </div>
+
+        <div class="card">
+            <h3 class="h1">Fitness Freak </h3>
+            </h2>
+            <p>
+                Here's a picture of me: <br>
+                <a href="https://i.ibb.co/v6hHBHqw"><img src="https://i.ibb.co/FLXKWK3x/Sameer.jpg" alt="Sameer" border="0"></a>
+            </p>
+        </div>
+
+        <div class="card" id="about-me">
+            <h2>My Hobbies & Gallery</h2>
+            
+            <div class="gallery">
+                <div id="hobby-text" class="box" style="margin-bottom: 15px;"><p>Fitness Freak</p></div>
+                 <img id="gallery-img" src="https://i.ibb.co/FLXKWK3x/Sameer.jpg"  alt="Hobby Image">
+                
+                <br>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <h2 id="contact">Leave a Message</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Your name" />
+        <br />
+        <label>Email: </label>
+        <input type="email" placeholder="Your email" value="your@gmail.com" />
+        <label>Message: </label>
+        <br />
+        <textarea rows="5" cols="50" placeholder="Say anything..."></textarea>
+        <br />
+        <button type="submit">Send Message</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
